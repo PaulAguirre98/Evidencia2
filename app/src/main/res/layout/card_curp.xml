@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apellido paterno"
+            />
+        <TextView
+
+            android:id="@+id/am"
+            android:layout_below="@+id/ap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apellido materno"
+            />
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_below="@+id/am"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre completo"
+            />
+        <TextView
+            android:id="@+id/sx"
+            android:layout_below="@id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            />
+        <TextView
+            android:id="@+id/fec"
+            android:layout_below="@+id/sx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento"
+            />
+        <TextView
+            android:id="@+id/state"
+            android:layout_below="@id/fec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entidad federativa"
+            />
+        <View
+            android:layout_width="246dp"
+            android:layout_height="1dp"
+            android:background="#120601">
+
+        </View>
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
